@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - STYLESPHERE</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="checkout-page">
+  
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h1>STYLESPHERE Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Fashion Accessories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="checkout.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="checkout">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+
+        <div class="total">
+            <p>Total: ₹<span id="total-amount">0.00</span></p>
+        </div>
+<a href="https://paytm.com/money-transfer">  <button class="btn" id="pay-button">Proceed to Pay</button></a>
+        
+    </section>
+
+    <script src="/js/cart.js"></script>
+</body>
+</html>

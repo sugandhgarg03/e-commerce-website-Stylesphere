@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLESPHERE</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body id="background">
+    
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h1>STYLESPHERE Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Fashion Accessories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="checkout.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to STYLESPHERE</h1>
+            <p>Your ultimate fashion destination!</p>
+            <a href="clothes.html" class="hero-btn">Shop the Look</a>
+        </div>
+    </section>
+
+    
+    <section class="featured-products">
+        <h2>Featured Collections</h2>
+        <div class="product-list">
+            
+            <div class="product-item">
+                <img src="media/image copy.png" alt="Fashion Item 1">
+                <h3>Chic Summer Dress</h3>
+                <p>999rs</p>
+                <a href="https://www.amazon.in/GRECIILOOKS-Rayon-Bodycon-Dresses-GL-WD1214_Orange/dp/B0DDGXWWXY/ref=sr_1_28?sr=8-28" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="media\image.png" alt="Fashion Item 2">
+                <h3>Fashion Oversized Shirt for Women</h3>
+                <p>499rs</p>
+                <a href="https://www.amazon.in/Leriya-Fashion-Oversized-Stylish-Western/dp/B0CZDXTHMG/ref=sr_1_8?sr=8-8" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="media\image copy 2.png" alt="Fashion Item 3">
+                <h3>SilverArrow Women's  Heeled Sandal</h3>
+                <p>1999rs</p>
+                <a href="https://www.amazon.in/SilverArrow-Stunning-Comfortable-Stylish-Stiletto/dp/B0DJ345D32/ref=sr_1_3_sspa?sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <p class="quote">"I absolutely love the chic summer dress I bought from STYLESPHERE! It's perfect for beach days!"</p>
+                <h3>- Anushka K.</h3>
+            </div>
+            <div class="testimonial-item">
+                <p class="quote">"The quality of the black blazer is amazing! It's my go-to piece for office wear."</p>
+                <h3>- Raghav M.</h3>
+            </div>
+            <div class="testimonial-item">
+                <p class="quote">"I get so many compliments on my new handbag. Stylish and functional!"</p>
+                <h3>- Reena G.</h3>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 STYLESPHERE. All Rights Reserved.</p>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Fashion Accessories</a></li>
+                    <li><a href="products.html">Collections</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/cart.js"></script>
+    <script>
+        // JavaScript function to trigger an alert
+        function showAlert(productName) {
+            alert("Button is clicked and  " + productName);
+        }
+    </script>
+</body>
+</html>

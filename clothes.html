@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - STYLESPHERE Store</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+   
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h1>STYLESPHERE Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Fashion Accessories</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="checkout.html" class="cart">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section class="featured-products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+           
+            <div class="product-item" data-id="10">
+                <img src="media\image copy 9.png" alt="Product 1">
+                <h3>Regular Fit Casual Shirt for Men</h3>
+                <p>268rs</p>
+                <a href="https://www.amazon.in/Leriya-Fashion-Textured-Stylish-Turquoise/dp/B0CM13D5DQ/ref=sr_1_7?sr=8-7" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="1">
+                <img src="media\image copy 10.png" alt="Product 2">
+                <h3>Traditional suit</h3>
+                <p>777rs</p>
+                <a href="https://www.amazon.in/Miraan-Womens-Dress-Material-BAND1603_Multicolor_Free/dp/B0793P87D2/ref=sxin_15_pa_sp_search_thematic_sspa?cv_ct_cx=fashion+clothes&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="2">
+                <img src="media\image copy 11.png" alt="Product 3">
+                <h3>FASHION Women Printed Cotton Rayon Blend Anarkali Kurta</h3>
+                <p>799rs</p>
+                <a href="https://www.amazon.in/DSS-FASHION-Printed-Anarkali-X-Large/dp/B0CJJDHQ6X/ref=sr_1_19?sr=8-19" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="3">
+                <img src="media\image copy 12.png" alt="Product 4">
+                <h3>One Piece Dress for Women</h3>
+                <p>477rs</p>
+                <a href="https://www.amazon.in/dp/B0C6GHXW5H/ref=sspa_dk_detail_2?psc=1&s=apparel&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="4">
+                <img src="media\image copy 13.png" alt="Product 5">
+                <h3>GRECIILOOKS Women Dress</h3>
+                <p>449rs</p>
+                <a href="https://www.amazon.in/dp/B0B86CVMT8/ref=sspa_dk_detail_4?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+            <div class="product-item" data-id="5">
+                <img src="media\image copy 14.png" alt="Product 6">
+                <h3>Casual Button Down Shirts Long Sleeve</h3>
+                <p>499rs</p>
+                <a href="https://www.amazon.in/Shining-Diva-Fashion-Bangle-Bracelet/dp/B07NPWP1Q6/ref=pd_rhf_dp_s_ci_mcx_mr_hp_d_d_sccl_1_12/259-2794664-6212962?psc=1" class="btn">View Product</a>
+                <button class="btn add-to-cart" onclick="showAlert('Item is successfully added to cart')">Add to Cart</button>
+            </div>
+           
+        </div>
+    </section>
+
+   
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 STYLESPHERE Store. All Rights Reserved.</p>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/cart.js"></script>
+    <script>
+        // JavaScript function to trigger an alert
+        function showAlert(productName) {
+            alert("Button is clicked and  " + productName);
+        }
+    </script>
+</body>
+</html>
